@@ -3,6 +3,7 @@
 package Aula1;
 
 import java.util.*;
+import javax.swing.*;
 
 public class Chave {
 /*
@@ -53,19 +54,22 @@ public class Chave {
         c1.printArray();
     }
   */
+    
     Scanner sC = new Scanner(System.in);
     Random rN = new Random();
     
     int i, randomNumber, insertedNumber, size=4;
+    String playerTip;
     
-    ArrayList <Integer> alrandomKey = new ArrayList <Integer>();
-    ArrayList <Integer> alplayerTip = new ArrayList <Integer>();
+    ArrayList <String> alrandomKey = new ArrayList <String>();
+    ArrayList <String> alplayerTip = new ArrayList <String>();
     
     public void randomKey(){
     
         for(i=0; i<size; i++){
             randomNumber = rN.nextInt(10);
-            alrandomKey.add(randomNumber);
+            String randomString = Integer.toString(randomNumber);
+            alrandomKey.add(randomString);
         }
         
     }
@@ -73,16 +77,19 @@ public class Chave {
     public void playerTip(){
         
         for(i=0; i<size; i++){
-            System.out.println("Introduza o valor " + (i+1));
-            insertedNumber = sC.nextInt();
-            alplayerTip.add(insertedNumber);
+            playerTip = JOptionPane.showInputDialog(null,"Introduza o Valor " + (i+1),"",JOptionPane.QUESTION_MESSAGE);
+            alplayerTip.add(i, playerTip);
+            
+            //System.out.println("Introduza o valor " + (i+1));
+            //insertedNumber = sC.nextInt();
+            //alplayerTip.add(insertedNumber);
         }
     }
     
     public void verificationNumbers(){
         int counter = 0;
         for(i=0;i<size;i++){
-            if(alrandomKey.get(i)==alplayerTip.get(i)){
+            if(alrandomKey.get(i).equals(alplayerTip.get(i))){
                 counter++;
             }
         }
