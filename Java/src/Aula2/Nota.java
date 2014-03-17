@@ -21,10 +21,8 @@ public class Nota {
 }
     
     public void addBill(int value, String symbol){
-        for(i=0;i<ArrayList.size();i++){
-            int
+        
             
-        }
     }
     
     public void setValue(int value) {
@@ -52,5 +50,3 @@ public class Nota {
     
         }
     }
-    
-}
