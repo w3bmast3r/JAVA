@@ -2,8 +2,6 @@ package Toshi;
 
 
 import java.io.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class Toshi {
  
@@ -13,6 +11,10 @@ public class Toshi {
  
     
     public void Toshi(){
+        
+    }
+    
+    public void readFile(){
         
         try {
             fileR = new FileReader("teste.txt");
@@ -35,4 +37,10 @@ public class Toshi {
         
         
     }
+    
+    public static void main(String[] args){
+        Toshi File = new Toshi();
+        File.readFile();
+    }
+    
 }
