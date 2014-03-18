@@ -13,10 +13,6 @@ public class Toshi {
  
     
     public void Toshi(){
-    
-    }
-    
-    public void readFile(){
         
         try {
             fileR = new FileReader("teste.txt");
@@ -39,13 +35,4 @@ public class Toshi {
         
         
     }
-    
-    
-    public static void main(String[] args){
-        
-        Toshi t1 = new Toshi();
-        t1.readFile();
-        
-    }
-    
 }
