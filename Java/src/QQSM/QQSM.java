@@ -1,20 +1,19 @@
 
 package QQSM;
 
-import java.io.FileNotFoundException;
+import java.io.*;
+import java.util.*;
+	
 
-public class QQSM extends Questao_QQSM{
-    
+public class QQSM{
+
     public static void main(String[] args) throws FileNotFoundException {
-    
-        QQSM T1 = new QQSM();
-	T1.readFile();
-	T1.printALQuestions();
-    
-    
-    
-            
+			
+	Questao_QQSM T2 = new Questao_QQSM();
+        T2.readFile();
+        T2.organizeQuestions();
+        T2.test();
+			
     }
-    
-    
-}
+		
+}	

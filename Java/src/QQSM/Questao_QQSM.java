@@ -5,10 +5,14 @@ import java.io.*;
 import java.util.*;
 
 public class Questao_QQSM{
-		
-	int i;
-	String line, name;
+	
+	int i, level;
+	String line, name, finalLevel;
 	ArrayList <String> Questions = new ArrayList <String>();
+	
+	ArrayList <String> Ql1 = new ArrayList <String>();
+	ArrayList <String> Ql2 = new ArrayList <String>();
+	ArrayList <String> Ql3 = new ArrayList <String>();
 	
 	Scanner sC = new Scanner(System.in);
 	
@@ -40,9 +44,35 @@ public class Questao_QQSM{
 		name = sC.nextLine();
 	}
 	
-	
-	public void printLevel1Questions(){
-		for(i=0;i<Questions.size();i++){
+	//Tipos de Questões
+	public void organizeQuestions(){
+		for(i=0;i<5;i++){
+			level = 8*i;
+			finalLevel = Questions.get(level);
+			if(finalLevel != "2" || finalLevel != "3"){
+				for(i=0;i<5;i++){
+					Ql1.add(Questions.get(i+1));
+				}
+			}
+			if(finalLevel != "1" || finalLevel != "3"){
+				for(i=0;i<5;i++){
+					Ql2.add(Questions.get(i+1));
+				}
+			}
+			if(finalLevel != "1" || finalLevel != "2"){
+				for(i=0;i<5;i++){
+					Ql3.add(Questions.get(i+1));
+				}
+			}
 		}
 	}
+	
+	public void test(){
+		for(i=0;i<Ql3.size();i++){
+			System.out.println(Ql3.get(i));
+		}
+	}
+	
 }
+
+	
