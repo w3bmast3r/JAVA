@@ -1,49 +1,119 @@
-2
-P: Qual o nome do primeiro álbum dos Xutos & Pontapés?
-A: 78/82
-B: Circo de Feras
-C: Ao vivo nos "Alunos de Apolo"
-D: Circo de Feras
+1
+P: Qual das seguintes palavras não é um substantivo próprio?
+A: Homem 
+B: Tejo
+C: Francisco
+D: Coimbra
 R: A
 
 1
-P: Qual a 3ª pessoa do plural do pretérito perfeito do verbo por?
-A: poseram
-B: pozeram
-C: puseram
-D: puserão
-R: C
+P: Como ficou conhecido o comediógrafo António José da Silva, autor de "Guerras de Alecrim e Manjerona"?
+A: O Bobo
+B: O Judeu
+C: O Satírico
+D: O Cómico
+R: B
 
-3
-P: O que se celebra no dia 2 de Abril?
-A: Dia Internacional do Livro
-B: Dia Internacional do Livro Infantil
-C: Dia Internacional do Aninal
-D: Dia Internacional da Criança
+1
+P: Qual destes filmes não foi realizado por David Cronenberg?
+A: Existenz
+B: Marte Ataca!
+C: Videodrome
+D: A Mosca
+R: B
+
+1
+P: Que designação se dá às palavras que têm a mesma pronúncia e grafia, mas significados diferentes?
+A: Homónimas
+B: Homófonas
+C: Homógrafas
+D: Parónimas
+R: A
+
+1
+P: A quem pertence o tema "Melancholic Ballad (For the Leftlovers)"?
+A: Sugababes
+B: Fingertips
+C: Incubus 
+D: Foo Fighters
 R: B
 
 2
-P: Quanto é 1250 vezes 723?
-A: 907305
-B: 907350
-C: 903750
-D: 907355
+P: Em que ano foi o Porto Capital Europeia da Cultura?
+A: 1996 
+B: 1997 
+C: 2001
+D: 2003
 R: C
 
-3
-P: Quem realizou o filme "O Tubarão II"?
-A: Jeannot Szwarc
-B: Oliver Stone
-C: Steven Spielberg
-D: Stephen King
+2
+P: De que distrito fazem parte Óbidos, Peniche e Batalha?
+A: Santarém 
+B: Leiria 
+C: Coimbra
+D: Aveiro
+R: B
+
+2
+P: Que desporto praticam os atletas olímpicos Telma Monteiro, João Neto, João Pina e Nuno Delgado?
+A: Judo 
+B: Natação
+C: Karate
+D: Vela
 R: A
 
+2
+P: Quem foi o último rei de Portugal?
+A: D. Afonso Henriques 
+B: D. Manuel II
+C: D. Afonso V 
+D: D. Carlos
+R: Bc < 7)
+
+2
+P: O que significa a palavra "felpudo"?
+A: Doce 
+B: Querido
+C: Amoroso
+D: Peludo
+
 3
-P: Em que ano foi tomada Constantinopla e o império Bizantino, pelo império Otomano?
-A: 1823
-B: 1923
-C: 1423
-D: 1623
+P: Como se chama o festival de cinema mais famoso do país basco?
+A: Óscares
+B: San Sebastian
+C: Cannes
+D: Berlim
+R: B
+
+3
+P: Qual é a nacionalidade de Dan Brown, autor do livro "O Código Da Vinci"?
+A: Inglesa 
+B: Canadiana
+C: Norte-americana
+D: Australiana 
 R: C
 
-				   
+3
+P: Por que nome é conhecido o vocalista dos Da Weasel?
+A: Tetris
+B: Super Mário
+C: Pacman 
+D: Paco
+R: C
+
+3
+P: Cali, Barranquilla e Medellín são cidades de que país?
+A: Venezuela
+B: Argentina
+C: Equador 
+D: Colômbia
+R: D
+
+3
+P: Por qual dos seguintes direitos lutaram as Sufragistas?
+A: Comunitário
+B: Voto
+C: Fiscal 
+D: Canónico
+R: B
+
