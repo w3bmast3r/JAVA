@@ -1,6 +1,6 @@
 //PRIMEIRA AULA PRATICA
 
-package Aula1;
+package P2_Aula1;
 
 import java.util.*;
 

@@ -1,5 +1,5 @@
 
-package Redes;
+package RC_Trab;
 
 import java.awt.BorderLayout;
 import java.awt.Container;

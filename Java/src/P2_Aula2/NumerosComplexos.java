@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package Aula2;
+package P2_Aula2;
 
 /**
  *

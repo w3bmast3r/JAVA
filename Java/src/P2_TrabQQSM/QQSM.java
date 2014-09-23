@@ -1,4 +1,4 @@
-package QQSM;
+package P2_TrabQQSM;
 
 import java.io.*;
 import java.util.*;

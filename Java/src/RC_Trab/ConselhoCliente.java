@@ -1,5 +1,5 @@
 
-package Redes;
+package RC_Trab;
 
 import java.io.IOException;
 import java.net.Socket;

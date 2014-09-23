@@ -1,5 +1,5 @@
 
-package Aula2;
+package P2_Aula2;
 
 public class Bit {
     
