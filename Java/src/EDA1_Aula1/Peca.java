@@ -17,7 +17,7 @@ public class Peca {
         this.nome = nome;
     }
     
-    public void alteracao(String nome){
+    public void teste1(String nome){
     	System.out.println(nome);
     }
     
