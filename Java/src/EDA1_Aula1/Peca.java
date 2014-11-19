@@ -17,8 +17,4 @@ public class Peca {
         this.nome = nome;
     }
     
-    public void teste1(String nome){
-    	System.out.println(nome);
-    }
-    
 }
